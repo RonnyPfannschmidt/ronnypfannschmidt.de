@@ -1,0 +1,3 @@
+before_install:
+- openssl aes-256-cbc -K $encrypted_2f6bf9c06334_key -iv $encrypted_2f6bf9c06334_iv
+  -in upload_key.enc -out upload_key -d
